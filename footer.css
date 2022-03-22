@@ -1,0 +1,81 @@
+.layout{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+.block1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    
+}
+.txt1 {
+    font-size: 9px;
+    color: white;
+}
+.txt1 #uni {
+    margin-top: -4px;
+    font-weight: bolder;
+    color: #797777;
+    position: absolute;
+    left: 31px;
+}
+.block1 #txt2 {
+    color: #797777;
+font-size: 12px;
+}
+.block1 #icons {
+    margin-top: 10px;
+
+}
+.block1 img {
+    margin-right: 8px;
+    border: 0.2px solid white;
+    border-radius: 7px;
+    width: 70px;
+}
+
+.block2 {
+    position: absolute;
+    left: 350px;
+    top: 60px;
+    font-size: 10px;
+    color: white;
+}
+.block2 p{
+    margin-bottom: 12px;
+
+}
+
+.icons2{
+    display: flex;
+}
+
+.block3 {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.block3 .icons {
+    display: flex;
+}
+
+.icons2 img{
+    width: 30px;
+    margin-right: 20px;
+}
+
+.block3 #text {
+    margin-top: 20px;
+    color: #777777;
+    font-size: 8px;
+}
+.block3 #text  span{
+    color: white;
+}
+
+.block3 #text p {
+    margin-bottom: 12px;
+}
